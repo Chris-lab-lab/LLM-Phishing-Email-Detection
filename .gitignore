@@ -1,0 +1,22 @@
+# Ignore all datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.zip
+*.gz
+*.pkl
+
+# Ignore Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore model files
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
