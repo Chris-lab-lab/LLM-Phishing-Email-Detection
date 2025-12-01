@@ -138,4 +138,4 @@ if __name__ == "__main__":
     )
 
     analysis = run_text_agent(test_subject, test_body)
-    print(json.dumps(analysis, indent=2))
+    print(json.dumps(analysis, indent=2))   
